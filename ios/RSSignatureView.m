@@ -68,11 +68,11 @@
 
 		[self addSubview:sign];
 
-		if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ) {
+		if ( true ) {
 
 			if (_showTitleLabel) {
 				titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.width, 24)];
-				[titleLabel setCenter:CGPointMake(self.bounds.size.width/2, self.bounds.size.height - 120)];
+				[titleLabel setCenter:CGPointMake(self.bounds.size.width/2, self.bounds.size.height - 20)];
 
 				[titleLabel setText:@"x_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _"];
 				[titleLabel setLineBreakMode:NSLineBreakByClipping];
